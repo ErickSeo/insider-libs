@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "console": "internalConsole",
+            "program": "${workspaceFolder}/model_registry/main.py",
+            "envFile": "${workspaceFolder}/.env",
+            "justMyCode": false
+        },
+        {
+            "name": "Debug Test",
+            "type": "debugpy",
+            "request": "tests",
+            "console": "internalConsole",
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
